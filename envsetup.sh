@@ -1622,5 +1622,6 @@ addcompletions
 
 export ANDROID_BUILD_TOP=$(gettop)
 export SKIP_ABI_CHECKS=true
+export ALLOW_MISSING_DEPENDENCIES=true
 
 . $ANDROID_BUILD_TOP/vendor/aosp/build/envsetup.sh
